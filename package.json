@@ -1,0 +1,26 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^2.6.4",
+    "express": "^4.17.1",
+    "graphql": "^14.3.1",
+    "lodash": "^4.17.11",
+    "merge-graphql-schemas": "^1.5.8",
+    "mongodb": "^3.2.7",
+    "mongoose": "^5.6.0"
+  },
+  "scripts": {
+    "start": "nodemon --ext js,graphql --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "nodemon": "^1.19.1"
+  }
+}
